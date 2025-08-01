@@ -1,29 +1,18 @@
-# vue_itProger
+# Vue-Projekt zur Auffrischung – `vue_itProger`
 
-This template should help get you started developing with Vue 3 in Vite.
+Dies ist ein kleines Vue-3-Projekt mit [Vite](https://vitejs.dev/) zur **Auffrischung und Vertiefung meiner Kenntnisse** im Umgang mit dem Vue-Ökosystem.  
+Ich habe die Projektstruktur aufgeräumt, nicht benötigte Dateien entfernt, das Favicon angepasst und eine solide Basis für die Weiterentwicklung geschaffen.
 
-## Recommended IDE Setup
+## Empfohlene Entwicklungsumgebung
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Volar (VSCode-Erweiterung)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)  
+  *(Hinweis: Vetur sollte deaktiviert sein.)*
 
-## Customize configuration
+## 🚀 Projekt lokal ausführen
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 📥 1. Repository klonen
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+```bash
+git clone https://github.com/StangeArel/itProger_Vue.git
+cd itProger_Vue
