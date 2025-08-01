@@ -26,7 +26,13 @@
     <div v-else className="usersDatenTwo">
         ‼️ Users has more than 2 element ❗️
     </div>
-    <User v-for="(el, index) in users" :key="index" :user="el" />
+    <User
+        v-for="(el, index) in users"
+        :key="index"
+        :user="el"
+        :index="index"
+        :deleteUser="deleteUser"
+    />
 </template>
 
 <script>
@@ -73,6 +79,9 @@
                     password: this.userPassword,
                 });
             },
+            deleteUser(index) {
+                this.users.splice(index, 1);
+            },
         },
     };
 </script>
@@ -101,6 +110,10 @@
     button {
         background-color: green;
         cursor: pointer;
+    }
+
+    button:hover {
+        background-color: rgb(176, 240, 80);
     }
 
     .users {
